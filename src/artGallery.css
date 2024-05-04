@@ -1,0 +1,13 @@
+#galleryImages img{ 
+    width:300px; 
+     height:200px; 
+     margin-right: 109px; 
+     margin-left: 75px;  
+     margin-top: 20px; 
+
+     cursor: pointer; 
+     border-radius: 20px;
+} 
+#galleryImages img:hover{ 
+     transform: scale(1.2);
+}

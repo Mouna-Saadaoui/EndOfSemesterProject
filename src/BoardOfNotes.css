@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); 
+
+ .inputMsg{ 
+    padding: 50px; 
+    width:300px; 
+    height:100px; 
+    text-align:left; 
+    margin-top:20px; 
+    border-radius: 20px; 
+    border-style: none;  
+    margin-left:500px;  
+    font-family: "Open Sans", sans-serif;  
+
+
+    
+ } 
+ button{ 
+    margin-left: 900px; 
+    border-radius: 20px; 
+    border-style: none; 
+    padding:5px;  
+    font-family: "Open Sans", sans-serif;  
+    width:50px; 
+ }
+ 
+    button:hover{  
+        background-color: black; 
+        color: white; 
+        cursor: pointer; 
+        font-family: "Open Sans", sans-serif;  
+
+ } 
+ .notes{ 
+    width: 200px;  
+    height:200px;
+    background-color: rgba(255, 255, 255, 0.756); 
+    border-radius: 20px;  
+    margin-bottom: 20px; 
+    margin-left: 50px;  
+    font-family: "Open Sans", sans-serif;   
+    font-size: bold;
+
+
+
+     
+    
+ }     
+
+ .notes:hover{ 
+    transform: scale(1.25,1.25); 
+    cursor: pointer;
+ }
+ li{ 
+text-align: center;    font-family: "Open Sans", sans-serif;    
+    font-weight: bold; 
+
+ }
