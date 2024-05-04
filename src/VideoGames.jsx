@@ -1,6 +1,7 @@
 import React from 'react';  
 import './VideoGames.css' 
-const gamesData=[ 
+const gamesData=[  
+
   { 
     name:"The Legend of Heroes III: Song of the Ocean", image:"ocean.jpg"
   },
@@ -20,7 +21,9 @@ const gamesData=[
     name:"Ef: A Fairy Tale of the Two", image:"fairy.jpg"
   },
 ];
-const Videogames = () => {
+const Videogames = () => { 
+  console.log('Videogames component rendering...');
+
   return (
     <div> 
      <ul class="listContainer"> {gamesData.map((game)=>{ 

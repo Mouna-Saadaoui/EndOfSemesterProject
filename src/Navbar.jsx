@@ -1,18 +1,21 @@
 import React from "react";   
-import { Link } from 'react-router-dom'; 
+import { Link } from 'react-router-dom';   
+import './index.css' 
+function Navbar() { 
+  console.log('Navbar component rendering...');
 
-const Navbar = () => { // Remove showLinks from props since it's not used in the Navbar
-  return (
+  return ( 
     <nav>
-      <ul> 
-        <li><Link to="/Home"><strong>Home</strong></Link></li>
-        <li><Link to="/Movies"><strong>Movies</strong></Link></li>
-        <li><Link to="/ArtGallery"><strong>Art Gallery</strong></Link></li>
-        <li><Link to="/VideoGames"><strong>Video Games</strong></Link></li>
-        <li><Link to="/BoardOfNotes"><strong>Board of Notes</strong></Link></li>
-      </ul>
-    </nav>
+          <ul>
+        <li><Link to="/Home">Home</Link></li>
+        <li><Link to="/Movies">Movies</Link></li>
+        <li><Link to="/ArtGallery">Art Gallery</Link></li>
+        <li><Link to="/VideoGames">Video Games</Link></li>
+        <li><Link to="/BoardOfNotes">Board of Notes</Link></li>
+      </ul> 
+      </nav>
+    
   );
-};  
+}  
 export default Navbar;
 

@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './BoardOfNotes.css';
 
-const Board = () => {
+const Board = () => { 
+  console.log('Board component rendering...');
+
   const [inputValue, setInputValue] = useState('');
   const [messages, setMessages] = useState([]);
 

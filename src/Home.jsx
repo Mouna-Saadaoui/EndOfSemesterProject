@@ -9,7 +9,9 @@ const Firstpage = ()=>{
 
   )
 }
-const Intro = () => {
+const Intro = () => { 
+  console.log('Home component rendering...');
+
     return ( 
         <div>
         <h3 id="quote">"The thing about getting rejected is that you reflect and think and analyze about why you got turned down. You learn a lot more from stories about getting rejected than stories about becoming happy. That's why I prefer those stories."</h3> 

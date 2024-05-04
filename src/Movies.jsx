@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './movies.css';
-const Movies = () => {
+const Movies = () => { 
+  console.log('Movies component rendering...');
+
   const [searchTerm, setSearchTerm] = useState(localStorage.getItem('search') || '');
   const [inputFocus, setInputFocus] = useState(false);
   const list =[ {name: "Suzume", image:"suzume.jpg" },  

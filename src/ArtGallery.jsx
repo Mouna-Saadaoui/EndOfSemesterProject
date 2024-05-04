@@ -1,8 +1,11 @@
 import React from 'react'; 
 import "./artGallery.css"
+const gallery = () => { 
+  console.log('gallery component rendering...');
 
-const gallery = () => {
-  return (
+  return ( 
+    
+
     <div id="galleryImages">
      <img src="sky.jpg"/> 
      <img src="night.jpg"/> 
@@ -22,8 +25,6 @@ const gallery = () => {
      <img src="nawa.jpg"/>
      <img src="tokyo.jpg"/>
      <img src="mom.jpg"/>
-
-
     </div>
   );
 }; 
